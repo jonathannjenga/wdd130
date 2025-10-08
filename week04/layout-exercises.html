@@ -4,64 +4,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Layout Exercises</title>
+    <title>About Us | Whitewater Rafting Adventures</title>
     <link rel="stylesheet" href="styles/layout-exercises.css">
 </head>
 
 <body>
-    <main>
-        <h1>CSS Layout Exercises</h1>
-        <hr>
-        <p>✅ 1. Center the paragraph content both horiztontally and vertically with each div using CSS Flex or CSS Grid.
-        </p>
-        <div class="one flex">
-            <p>Use CSS Flex</p>
-        </div>
-        <div class="one grid">
-            <p>Use CSS Grid</p>
-        </div>
-        <hr>
-        <p>✅ 2. Create a single row of div items within the container div, if the screen is wide enough. Otherwise
-            design the
-            divs to stack within the given width space. Make sure there is equal space between items and the sides.</p>
-        <div class="container2">
-            <div class="two">
-                <p>Item 1</p>
-            </div>
-            <div class="two">
-                <p>Item 2</p>
-            </div>
-            <div class="two">
-                <p>Item 3</p>
-            </div>
-        </div>
-        <hr>
-        <p>✅ 3. Create a table using grid where the first row spans the three columns. </p>
-        <div class="container3">
-            <div class="three columns-3">
-                <p>Title</p>
-            </div>
-            <div class="three">
-                <p>Cell 1</p>
-            </div>
-            <div class="three">
-                <p>Cell 2</p>
-            </div>
-            <div class="three">
-                <p>Cell 3</p>
-            </div>
-            <div class="three">
-                <p>Cell 4</p>
-            </div>
-            <div class="three">
-                <p>Cell 5</p>
-            </div>
-            <div class="three">
-                <p>Cell 6</p>
-            </div>
+    <header>
+        <img src="images/logo.png" alt="Rafting Adventures Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html" class="active">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
 
-        </div>
+    <main>
+        <section class="hero">
+            <section class="hero">
+                <p>Adventure, excitement, and nature — all in one unforgettable experience.</p>
+            </section>
+
+            <section class="history">
+                <h2>Our History</h2>
+                <div class="history-layout"> <img src="images/history.jpg" alt="Rafting history image">
+                    <p>Whitewater Rafting Adventures was founded in 1998 by a team of outdoor enthusiasts who wanted to
+                        share their
+                        love of rivers and adventure. Over the years, we have expanded our trips, guiding thousands of
+                        rafters
+                        through some of the most scenic waterways in the world.</p>
+                    <p>Our mission is to offer safe, sustainable, and thrilling experiences while fostering a deep
+                        respect for
+                        nature and local communities.</p>
+                </div>
+            </section>
+            <section class="adventures">
+                <h2>Adventure Awaits You!</h2>
+                <div class="adventure-gallery">
+                    <figure> <img src="images/los-dientes.jpg" alt="Los Dientes del Diablo">
+                        <figcaption>Los Dientes del Diablo</figcaption>
+                    </figure>
+                    <figure> <img src="images/big-mallard.jpg" alt="Big Mallard">
+                        <figcaption>Big Mallard</figcaption>
+                    </figure>
+                    <figure> <img src="images/half-day.jpg" alt="Half Day Adventure">
+                        <figcaption>Half Day Adventure</figcaption>
+                    </figure>
+                    <figure> <img src="images/full-day.jpg" alt="Full Day Adventure">
+                        <figcaption>Full Day Adventure</figcaption>
+                    </figure>
+                    <figure> <img src="images/wild-rapid.jpg" alt="Wild Rapids">
+                        <figcaption>Wild Rapids</figcaption>
+                    </figure>
+                </div>
+            </section>
     </main>
+    <footer>
+        <p>© 2025 Whitewater Rafting Adventures | Designed by Your Name</p>
+        <div class="social">
+            <a href="#"><img src="images/facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="images/twitter-icon.png" alt="Twitter"></a>
+            <a href="#"><img src="images/instagram-icon.png" alt="Instagram"></a>
+        </div>
+    </footer>
 </body>
 
 </html>
