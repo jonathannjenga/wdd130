@@ -1,0 +1,73 @@
+<!doctype html>
+<body>
+<header class="site-header">
+<div class="container nav-row">
+<a class="logo" href="index.html">Whitewater Adventures</a>
+<nav aria-label="Main navigation">
+<ul class="nav">
+<li><a href="index.html">Home</a></li>
+<li><a href="trips.html" aria-current="page">Trips</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+</div>
+</header>
+
+
+<main class="container">
+<h1>Trips</h1>
+<p class="lead">Choose from our selection of guided trips. We provide all safety gear and instruction.</p>
+
+
+<section class="trips-grid" aria-label="Available trips">
+<article class="trip-card">
+<img src="images/trip-scenic.jpg" alt="calm scenic river stretch" width="600" height="350">
+<h2>Scenic Float — Easy</h2>
+<p>Relaxed journey for families and beginners. Wildlife viewing and river-side picnic.</p>
+<p><strong>Duration:</strong> 2 hours · <strong>Price:</strong> $49</p>
+<a class="btn" href="contact.html">Book now</a>
+</article>
+
+
+<article class="trip-card">
+<img src="images/trip-rapids.jpg" alt="group navigating rapids" width="600" height="350">
+<h2>Half Day Rapids — Intermediate</h2>
+<p>Thrilling rapids with professional guides. Safety briefing and equipment included.</p>
+<p><strong>Duration:</strong> 4 hours · <strong>Price:</strong> $79</p>
+<a class="btn" href="contact.html">Book now</a>
+</article>
+
+
+<article class="trip-card">
+<img src="images/trip-overnight.jpg" alt="camping by the river" width="600" height="350">
+<h2>Overnight Expedition — Advanced</h2>
+<p>Multi-day trip with camping, river navigation, and skill training. Limited spots.</p>
+<p><strong>Duration:</strong> 2 days · <strong>Price:</strong> $249</p>
+<a class="btn" href="contact.html">Book now</a>
+</article>
+</section>
+
+
+<section class="safety container" aria-labelledby="safety-heading">
+<h2 id="safety-heading">Safety & Preparation</h2>
+<p>All participants must sign a waiver and attend a safety briefing. We provide personal flotation devices, helmets, and paddles.</p>
+<ul>
+<li>What to bring: quick-dry clothing, water bottle, closed-toe shoes</li>
+<li>Minimum age: 8 (with guardian on family trips)</li>
+<li>Cancellation policy: full refund 14+ days before trip</li>
+</ul>
+</section>
+</main>
+
+
+<footer class="site-footer">
+<div class="container">
+<p>&copy; <span id="year"></span> Whitewater Adventures — All rights reserved.</p>
+</div>
+</footer>
+
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
